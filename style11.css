@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    letter-spacing:0ic;
+    color: #fff;
+    scroll-behavior: smooth;
+    scroll-margin: 50px;
+}
+nav{
+    box-shadow: 5px 6px 6px rgba(0,0,0,0.05);
+    position: sticky;
+    background-color: #fff;
+    top:0;
+    z-index: 50;
+    background-color: #281154;
+    padding: 5px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color:#fff;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    gap:20px;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.hero_section{
+    background-image: url(./images/top_image.png);
+    height: 100vh;
+    display: grid;
+    color:#fff;
+    place-items: center;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.hero_section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.hero_section h1{
+    font-size: 98px;
+    font-weight: bold;
+}
+.hero_section h3{
+    font-size: 20px;
+}
+.music_section{
+    padding-top: 50px;
+    background-color: #281154;
+    height: 806px;
+}
+.music_section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+.music_section .container p{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.music_section .container img{
+    margin-top: -400px;
+    position: relative;
+    top:400px;
+}
+button{
+    padding: 10px 15px;
+    background-color: red;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transform: scale(1.04);
+    box-shadow: 4px, 5px, 5px rgba(0, 0, 0, .1);
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.video-section{
+    padding-top: 300px;
+    display: grid;
+    place-items: center;
+    gap:50px;
+    color:black;
+    background-color: #F9F6FF;
+}
+.video-section h4{
+    text-align:center;
+    text-align: center;
+    width: 950px;
+    margin: 0 auto;
+}
+.secondary-btn{
+    background-color:#281154;
+    padding: 8px 8px;
+}
+.video-section h1{
+    font-size: 96px;
+    font-weight: 500;
+}
+.video_img img{
+    min-height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gift-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    width: 1000px;
+    padding: 10px;
+    scroll-margin: 120px;
+}
+.section-gift h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.paragraph{
+    margin-bottom: 30px;
+}
+.divider{
+    border-bottom: 2px solid #ccc;
+}
+.third-btn{
+    margin-top: 10px;
+    background-color: #37008E;
+    height: 30px;
+    width: 113px;
+    color: #fff;
+}
+.bottom-section .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+   color:#fff;
+   background-color: #281154;
+   padding:50px 100px;
+}
+.divider1{
+    border-bottom: 1px solid #ccc;
+    width:220px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #37008E;
+    text-align: center;
+    font-size: 18px;
+    padding:15px ;
+    width:1440px;
+    margin: 0 auto;
+}
+.container h3{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.container h3:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+    font-size: 20px;
+}
